@@ -1,0 +1,56 @@
+# Research method for Microsoft Security questions from partners
+
+This file describes how a research question about Microsoft 365 or Microsoft Security is decomposed, searched, cross-checked and reported. It applies when a partner asks for more than one fact: a comparison, a "what changed", a briefing before a customer meeting, or a summary of what Microsoft documents about a topic.
+
+## When a Microsoft Security question needs research instead of a lookup
+
+A lookup answers one fact from one page: "Which plans include Microsoft Defender for Endpoint Plan 2?" Research answers a question that spans several pages or needs a judgement: "What changed in Microsoft Defender for Business licensing this year and what does it mean for a customer on Microsoft 365 Business Standard?" Signals that a question needs research: the words compare, versus, what changed, what's new, briefing, overview, options, impact, or a question that names more than one product, country or customer situation.
+
+## Decomposing a Microsoft Security research question into sub-questions
+
+A Microsoft Security research question is split into sub-questions that are independent and together cover the whole question. Typical decompositions for partner questions:
+
+Comparison of two plans: contents of plan A; contents of plan B; prerequisites of each; what neither includes.
+What changed for a product: current licensing page; latest Partner Center announcements; product blog announcements; renames.
+Customer briefing: the customer's stack; the gap for their stated risk; the path options; deployment prerequisites; country-specific rules.
+Regulation question: the regulation's scope; the national transposition status in the named country; which Microsoft capabilities support which obligation, from Microsoft documentation.
+Each sub-question gets its own searches. A sub-question that stays unanswered is reported as unanswered, not merged silently into another answer.
+
+## Search sequence: broad first, then narrow, then the primary page
+
+Searches on Microsoft Learn that start with a long, specific query return little and lock onto a bad path. The productive sequence is:
+
+Pass one, broad: the product or topic name alone, to see which official pages exist.
+Pass two, narrow: the exact plan name plus "service description", "licensing", "prerequisites" or "what's new".
+Pass three, primary page: open the page that settles the fact, read the relevant section, and record the page title, URL and the sentence that supports the claim.
+Pass four, cross-check: one more official page that should agree, such as the family service description for a claim found on a plan page.
+The number of searches scales with the question. One fact needs one or two searches. A comparison needs at least one search per item compared. A briefing needs one or more per sub-question.
+
+## Triangulation and conflicts between Microsoft sources
+
+A claim confirmed on two official Microsoft pages is strong. A claim found on one page is reported with that page. A claim found only on a blog or a chart is reported as needing confirmation in the service description.
+
+When two Microsoft pages disagree, both are reported with their links, the higher-ranked source in the source map is preferred, and the conflict is stated in the answer. Common causes: a rename that one page has not caught up with, a feature that moved between plans, a preview described as available on a blog.
+
+## Recency in Microsoft Security research
+
+Microsoft changes Microsoft 365 plan contents, names and partner programs often. Research on "current" licensing reads the current page, not a remembered version. Signals of a stale source: a retired product name, a plan that no longer appears on the plans page, a page that contradicts the latest Partner Center announcement. The current date comes from the system, and the Microsoft fiscal year is derived from it: a Microsoft fiscal year runs from 1 July to 30 June and is named after the calendar year in which it ends.
+
+## Separating what the source says from interpretation
+
+A Microsoft Security research answer keeps two layers apart. The first layer is what the official page states, attributed to that page. The second layer is the interpretation for the partner's situation, labelled as interpretation. A sentence such as "Microsoft lists Microsoft Defender for Cloud Apps in the Defender Suite for Business Premium" is a source statement. A sentence such as "For a 40-seat customer with heavy use of unsanctioned cloud apps, this makes the Defender Suite the stronger path" is interpretation and is labelled as such.
+
+## Research report shape for a partner
+
+A research answer for a partner has these parts, in this order:
+
+Answer: the conclusion in two to four sentences.
+Findings: one short section per sub-question, each with the facts and their sources.
+Conflicts and gaps: where sources disagree, where nothing official was found, what is in preview.
+Implications for the partner: labelled as interpretation, specific to the situation described.
+Sources: page title and full URL for every page opened.
+Confidence: high, medium or low, with the single reason it is not higher.
+
+## Stop condition for Microsoft Security research
+
+Microsoft Security research stops when every sub-question has an answer from an official page or is reported as unanswered with the search that failed. More searching after that point adds length, not accuracy. When a sub-question can only be answered behind partner sign-in, such as a price list or an incentive guide, the report says so and names the Partner Center area where the partner finds it.

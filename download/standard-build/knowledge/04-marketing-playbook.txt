@@ -1,0 +1,136 @@
+# Microsoft Security marketing playbook for European partners
+
+This file holds the structures, register rules and compliance patterns for marketing content that Microsoft partners in Europe write about Microsoft 365 and Microsoft Security: LinkedIn posts, customer emails, short web copy and one-page fact sheets. It holds no prices, dates or promotions. Rules that change by country are written as patterns that the writer confirms with the national regulator before sending.
+
+## Who reads partner marketing about Microsoft Security
+
+Partner marketing about Microsoft Security has two readers. The first is the customer: an owner, managing director, office manager or IT lead at a small or medium company, who reads in their own language, has little time and distrusts vendor enthusiasm. The second is a peer: another partner, a Microsoft contact or a prospective employee who reads the partner's LinkedIn posts to judge competence.
+
+Content for customers goes out under the partner's own brand, with the partner as sender. Microsoft is referenced truthfully in the text. Content for peers shows what the partner knows: a verified licensing detail, a deployment lesson, a documented change.
+
+## Claim statuses for marketing content (verified, supplied, unverified, contradicted)
+
+Every factual claim in partner marketing about Microsoft products has one of four statuses.
+
+Verified: confirmed on an official Microsoft page opened in the current session. The claim may enter the asset.
+Supplied: provided by the partner, such as its own price, event date or customer result with permission. The claim may enter the asset; it is still checked against public Microsoft pages for contradictions.
+Unverified: no evidence found. The claim stays out of the asset and becomes a needs-input item that names what would verify it.
+Contradicted: an official page says otherwise. The claim stays out in any wording; the verified fact replaces it and the writer is told.
+
+The finished asset contains no status tags, citations or notes. The claim ledger, compliance flags and sources follow the asset, addressed to the partner.
+
+## LinkedIn post structure for Microsoft Security topics
+
+A LinkedIn post that works with European IT readers has this structure.
+
+First line: the point or the observation, specific and true, in one sentence. Mobile shows only the first two or three lines before "see more", so the first line carries the post and cannot be a teaser.
+Body: 80 to 200 words for an observation, up to 300 for a lesson with steps. Paragraphs of two to four sentences. No one-sentence-per-line rhythm.
+Evidence: a named product and plan, a documented change, a number with its named source.
+Boundary: what the point does not apply to, or what is still in preview. European readers trust posts that state limits.
+Close: a question a peer can answer from experience, or one concrete next step. Not "agree?" and not "thoughts?".
+Hashtags: three at most, at the end, real topic tags.
+Links: a link to the official documentation strengthens a licensing post.
+
+Hooks that fit European readers: a documented change ("Microsoft added a Defender for Office 365 plan to a suite that lacked it"), a verified comparison, a common licensing mistake and its fix, a lesson from a real deployment. Hooks that fail: "Unpopular opinion", "Nobody talks about", "Stop doing X", countdowns and invented urgency.
+
+## Customer email structure for Microsoft Security offers
+
+A customer email from a partner about Microsoft Security has this structure.
+
+Subject: under 50 characters, specific, no question bait. Three options are offered.
+Preheader: one line that extends the subject.
+Opening: who writes and why, in one sentence. In Germany, Austria and Switzerland the formal address is used; in Spain, Italy and Portugal the formal address with a warmer tone.
+Point: the customer's situation or risk in plain words, then the mechanism that addresses it, naming the exact product and plan.
+Proof: a link to the Microsoft documentation, or a named reference customer with permission.
+Boundary: what the offer does not include and what needs an add-on.
+Call to action: one concrete next step, such as booking a 30-minute licence review.
+Footer placeholders: [sender name], [company], [postal address], [unsubscribe link].
+
+## Short web copy and landing page structure
+
+A partner landing page for a Microsoft Security service has these blocks.
+
+Headline: the outcome for the customer in under ten words.
+Subheading: the mechanism and the product that delivers it.
+Problem: two or three sentences in the customer's words.
+What the partner does: the service steps, with the Microsoft products named.
+What is included and what is not: plain lists, including prerequisites such as a base plan.
+Proof: documentation links, certifications the partner actually holds, reference customers with permission.
+Call to action: one form or one booking link, with consent wording for the market.
+Placeholders: [partner logo], [designation badge, only if held], [form link], [privacy notice link].
+
+## One-page fact sheet structure for a Microsoft plan or add-on
+
+A one-page fact sheet that explains a Microsoft plan or add-on to a customer has these parts: the plan name exactly as Microsoft writes it; the base plan it requires; what it adds, as a list of products with one plain sentence each; what it does not include; who it fits, in two or three customer situations; how the partner deploys it; the official Microsoft page that confirms the contents. Prices appear only when the partner supplies them with market, term, billing plan and price list date.
+
+## European register by market for partner marketing
+
+European IT buyers read enthusiasm as a warning sign. Understatement, proof before promise, one action and respect for the reader's time earn attention. Register differs by market.
+
+Germany, Austria, Switzerland: formal "Sie", titles where customary, precise, no superlatives, documentation link early, structured layout.
+France and French-speaking Belgium: formal "vous", relationship-first opening, professional relevance stated plainly.
+Spain and Portugal: formal "usted" or "o senhor/a senhora" in first contact, warm but correct, say who writes and why before the ask.
+Italy: formal "Lei", courtesy titles such as "Dott." or "Ing." in first contact.
+Nordics: short, direct, first names, no ceremony, modest tone.
+Netherlands and Dutch-speaking Belgium: short, direct, first names, matter-of-fact benefits, clear next step.
+United Kingdom and Ireland: direct with understatement, first names in most business contexts.
+Poland, Czechia and Central Europe: formal, surnames and titles in first contact.
+Formats: day-month-year dates, 24-hour time, decimal comma and thousands separator as the market uses them.
+
+## Composing in the market language
+
+Partner marketing for a European market is composed in that market's language from the brief, not translated from an English draft. Translated copy reads translated. Microsoft product and plan names stay as Microsoft writes them in that market; Microsoft localises a few names, which the local Learn page shows. Local hype words are removed as well as English ones, for example "bahnbrechend", "nahtlos", "revolucionario", "sin fricciones", "révolutionnaire". When the writer cannot read the target language well, a native speaker reviews the text before it is sent.
+
+## Words and patterns that make Microsoft Security marketing read as generic
+
+These words and patterns signal machine-written or vendor-generic copy to European readers and are removed.
+
+Hype words: game-changer, revolutionary, unlock, supercharge, seamless, robust, cutting-edge, next-generation, best-in-class, world-class, empower, leverage, synergy, holistic, transform, elevate, effortless, state-of-the-art, innovative, disruptive, excited, thrilled.
+Filler openings: "I hope this finds you well", "I wanted to reach out", "In today's fast-paced world".
+Soft asks: "just checking in", "circling back", "thoughts?", "let me know if this resonates".
+Pseudo-precision: "up to", "as much as", "significantly", "dramatically" without a number and a source.
+Patterns: "It's not X, it's Y"; colon reveals; three-item lists by reflex; one-line paragraphs; closing summaries and aphorisms; emojis; exclamation marks; em dashes; bold words inside sentences.
+Replacement: the product name, the plan name, the mechanism, the number with its unit and source, or nothing.
+
+## Microsoft naming and trademark rules for partner marketing
+
+Microsoft product names appear in full on first mention, exactly as Microsoft writes them: "Microsoft 365 Business Premium", "Microsoft Defender for Endpoint Plan 2", "Microsoft Entra ID P1". Microsoft's trademark guidance asks that "Microsoft 365" is not truncated to "M365". Internal shorthand such as MDE, MDO, MDI, E5 Sec or P2 without the product name is expanded. Renamed products use the current name, with "formerly" and the old name once when readers know the old one.
+
+Partner materials look like they come from the partner. Microsoft logos and product icons are used only under a licensed logo programme, such as a Solutions Partner designation badge the partner actually holds. Truthful text references are allowed: "includes Microsoft Defender for Endpoint Plan 2", "available through the Cloud Solution Provider program". Microsoft brand assets are not altered.
+
+## Email consent patterns by country (confirm before sending)
+
+National rules for commercial email in the European Union come from the national implementations of the ePrivacy Directive, alongside the General Data Protection Regulation (GDPR), and they differ. These patterns are a starting point; the national regulator's page decides on the day of sending.
+
+Germany: prior consent expected even for business recipients under the Unfair Competition Act (UWG); double opt-in is the practical standard.
+Spain: explicit consent expected; the existing-customer exception is read narrowly.
+France: sources describe both a professional-relevance test and strict consent; the regulator also treats individual open tracking as needing consent.
+Netherlands and Belgium: generally more permissive for corporate recipients with sender identity and an opt-out; confirm with the national authority.
+United Kingdom and Ireland: email to corporate subscribers permitted with sender identity and unsubscribe; a named person's work address is still personal data.
+Nordics, Italy, Poland, Austria: consent-oriented; confirm per country.
+Every customer email carries sender identity, postal address and a working unsubscribe, and honours the suppression list.
+
+## Personalisation and tracking that European readers accept
+
+In European partner marketing about Microsoft Security, personalisation is welcome when it is relevant and visible to the reader: their sector, their country, a product they already use, an event they registered for. It is not welcome when it reveals tracking: "I saw you visited our page", "you opened my last email". Open-rate tracking is unreliable and, in some markets, needs consent; clicks, replies and booked meetings are better success measures. Forms use unticked consent boxes, separate boxes for separate purposes, a link to the privacy notice and a clear statement of who the controller is.
+
+## AI-generated content and EU Artificial Intelligence Act Article 50 transparency duties
+
+Article 50 of the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) sets transparency duties for content generated by artificial intelligence (AI). Deployers label deepfakes: AI-generated or manipulated images, audio or video that resemble real people, places or events and would falsely appear authentic. AI-generated text published to inform the public on matters of public interest is disclosed unless a human editor takes editorial responsibility. Ordinary partner marketing that a person edits and signs falls outside the text duty; a photorealistic AI image of an office with employees falls close to the deepfake line and is safer labelled. The European Commission's current guidance on Article 50 is checked before advising on a specific asset, because implementation details have moved.
+
+## Monitoring-related security content in Germany, Austria and Switzerland
+
+Microsoft Security products that can observe employee activity, such as Insider Risk Management, Communication Compliance, endpoint detection and response telemetry, audit logs and device management, touch employee co-determination rules in German-speaking markets.
+
+Germany: the Works Constitution Act (Betriebsverfassungsgesetz), section 87(1) no. 6, gives the works council a co-determination right over technical systems suited to monitor employee behaviour or performance.
+Austria: the Labour Constitution Act (Arbeitsverfassungsgesetz), sections 96 and 96a, requires works council consent or a works agreement for certain control measures and personnel data systems.
+Switzerland: employee information and consultation rules and limits on behaviour monitoring apply; the details are confirmed for the customer's situation.
+Practical wording for customer content in these markets: the rollout includes the works council or employee representatives from the start, and the configuration follows a works agreement where one is required.
+
+## Regulation hooks in Microsoft Security marketing (NIS2, DORA, Cyber Resilience Act, GDPR)
+
+European regulations make tempting hooks for Microsoft Security marketing, and wrong regulatory claims destroy trust fast. The Network and Information Security Directive 2 (NIS2) applies through national transposition laws, and transposition status and scope differ by country; a NIS2 hook is used only after the national law's status and the customer's sector coverage are confirmed. The Digital Operational Resilience Act (DORA) applies to financial entities and their critical information and communication technology providers. The Cyber Resilience Act applies to manufacturers of products with digital elements. GDPR applies to almost every customer, which makes "GDPR-compliant" meaningless as a claim; a specific control and the obligation it supports carry information. No Microsoft product makes a customer compliant by itself; products support specific obligations, and the claim names which ones.
+
+## Data residency and EU Data Boundary questions in Microsoft Security marketing
+
+European customers of Microsoft 365 ask where their data is processed and stored. Microsoft documents the EU Data Boundary and its exceptions on Microsoft Learn and the Microsoft Trust Center. Marketing that mentions data residency names the specific service and links the Microsoft page, because exceptions exist for some features, AI models and support scenarios. Learn documents, for example, that Anthropic models used in Microsoft Copilot experiences are excluded from the EU Data Boundary, and that administrators in the European Union, the European Free Trade Association and the United Kingdom control their use through tenant settings.

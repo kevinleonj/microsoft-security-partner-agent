@@ -1,0 +1,115 @@
+# Microsoft Security licensing method for partners: stack, gap, path
+
+This file describes how a Microsoft partner builds a Microsoft Security licensing recommendation for a small or medium customer. It holds method and product relationships, not prices, dates, promotions or seat numbers. Every product claim built with this method is confirmed on the Microsoft page named in the source map before it reaches a customer.
+
+## Stack, gap, path: the three-step licensing method for Microsoft Security
+
+The stack, gap, path method turns a customer's current Microsoft licences into one recommended next step.
+
+Step one, stack: what the customer licenses today. The plan names, the rough seat count, whether the tenant mixes plans, whether Microsoft 365 Copilot licences are in use, and which third-party security tools run alongside Microsoft.
+Step two, gap: which security or compliance capability the customer lacks, checked against the service description of the plan they own. A gap is a capability the customer needs for a stated risk, not every feature they do not have.
+Step three, path: the next logical licence step that closes the gap. The next logical step is usually the smallest change that closes the stated risk, not the largest bundle. The path names the exact plan or add-on, what it adds on top of the base plan, what it still does not include, and the official page that confirms it.
+
+The method ends with two options and a recommendation. The recommendation states why the other option lost, for example cost, deployment effort, mixed-licence complexity or a missing prerequisite.
+
+## Facts that change a Microsoft Security licensing recommendation
+
+A licensing recommendation for a Microsoft 365 customer changes when any of these facts change. A partner asks only for the ones missing from the conversation and only when the answer would flip the recommendation.
+
+Base plan and mix: Microsoft 365 Business Basic, Business Standard, Business Premium, Microsoft 365 E3, Microsoft 365 E5, Office 365 plans, frontline plans, or a mix in one tenant.
+Seat count band: whether the customer stays within the Business plan seat cap or is close to it. The cap is read from the Business Premium frequently asked questions (FAQ) page.
+Microsoft 365 Copilot: whether the customer uses or plans Copilot. Copilot works with the permissions users already have, so oversharing becomes visible and data security moves up the list.
+Country and sector: regulated sectors and national rules change which controls matter and how monitoring features are introduced to employees.
+Renewal month and term: the renewal date and the commitment term decide when a licence change is practical.
+Existing security vendors: an endpoint, email or backup product from another vendor changes which Microsoft capability is the real gap.
+Partner capacity: whether the partner can deploy and run the capability, or needs a managed service, changes which path is realistic.
+
+## Reading a mixed Microsoft 365 licence base
+
+Small and medium Microsoft 365 customers often run mixed licensing: some users on Business Basic or Business Standard, others on Business Premium, some on Microsoft 365 E3 or E5, with or without Microsoft 365 Copilot.
+
+Mixed licensing matters for security because many Microsoft Security controls are licensed per user. Microsoft Learn states that every user who benefits from Conditional Access needs a Microsoft Entra ID P1 licence or higher, so users on a lower plan are a licensing gap and are often left out of policies. Endpoint protection from Microsoft Defender for Business or Microsoft Defender for Endpoint is licensed for the devices of licensed users. A partner who reads only the most common plan in a tenant misses the users who are not covered.
+
+Mixed tenants also raise product interaction questions. Microsoft Learn states that Microsoft Defender for Business does not support mixed licensing: a tenant with Defender for Business, which Business Premium includes, and some Microsoft Defender for Endpoint Plan 2 licences, for example from a partial Microsoft Defender Suite purchase, defaults to the Defender for Business experience for everyone. To get the Plan 2 experience, all users need Plan 2 licences and the customer asks Microsoft Support to switch the tenant. A partial Defender Suite proposal states this.
+
+Source to confirm: https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/m365bp-security-faq
+
+## Capability gaps to check for Microsoft 365 Business Basic and Business Standard customers
+
+Microsoft 365 Business Basic and Business Standard include Exchange Online Protection for email filtering but not the device management and advanced protection that Microsoft lists for Microsoft 365 Business Premium. Microsoft Learn lists, for Business Premium, Microsoft Entra ID P1, Microsoft Intune Plan 1, Microsoft Defender for Business, Microsoft Defender for Office 365 Plan 1, and Microsoft Purview Information Protection and Data Loss Prevention for email and files.
+
+Questions that expose the gap for a Business Basic or Business Standard customer:
+Question: Can the customer require multifactor authentication based on risk, location or device state? That needs Conditional Access, which comes with Microsoft Entra ID P1.
+Question: Are company laptops and phones managed and encrypted from one console? That needs Microsoft Intune.
+Question: Is there endpoint detection and response on every device? That needs Microsoft Defender for Business or Microsoft Defender for Endpoint.
+Question: Are links and attachments in email checked at the moment of click or opening? That needs Microsoft Defender for Office 365.
+Question: Are sensitive documents labelled and protected against sharing outside the company? That needs Microsoft Purview Information Protection and Data Loss Prevention.
+
+Source to confirm: https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/add-defender-suite-business-premium (the Business Premium contents are listed at the top of the page) and the family service descriptions in the source map.
+
+## Capability paths to check for Microsoft 365 Business Premium customers
+
+Microsoft 365 Business Premium customers already have the baseline set for small and medium business. The documented next steps are add-ons on top of Business Premium.
+
+Path: Microsoft Defender Suite for Business Premium. Microsoft Learn lists it as adding Microsoft Entra ID P2, Microsoft Defender for Identity, Microsoft Defender for Endpoint Plan 2, Microsoft Defender for Office 365 Plan 2 and Microsoft Defender for Cloud Apps. It replaces the former Microsoft 365 E5 Security add-on for Business Premium. Fits customers who need identity threat detection, automated investigation and response, or control of cloud-app use.
+Path: Microsoft Purview Suite for Business Premium. Fits customers who need deeper data security and compliance, often triggered by Microsoft 365 Copilot. Microsoft Learn names it in the Purview service description tables but has no single page listing everything it includes, so each Purview feature is confirmed in the Purview service description before it is promised.
+Path: Microsoft Defender and Purview Suites for Microsoft 365 Business Premium, the combined add-on, where both needs exist.
+Caution for partial purchases: Defender for Business does not support mixed licensing, so a Defender Suite bought for only some users leaves the whole tenant on the Defender for Business experience until all users have Defender for Endpoint Plan 2.
+
+Source to confirm: https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/add-defender-suite-business-premium and https://learn.microsoft.com/en-us/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-purview-service-description
+
+## Capability paths to check for Microsoft 365 E3 and E5 customers
+
+Microsoft 365 E3 customers usually close security gaps with enterprise add-ons. The Microsoft Entra licensing page describes the Microsoft Defender Suite as formerly Microsoft 365 E5 Security. Microsoft Learn describes the Microsoft Purview Suite as formerly Microsoft 365 E5 Compliance. The Microsoft Defender for Office 365 service description shows which Defender for Office 365 plan the customer's E3 includes today.
+
+Microsoft 365 E5 includes the Defender and Purview capabilities that E3 customers add as suites. Remaining paths for E5 customers are usually identity and device extensions, such as the Microsoft Entra Suite or the Microsoft Intune Suite, or a move to a bundle that adds Microsoft 365 Copilot. The prerequisites page on Microsoft Learn describes Microsoft 365 E7 as a bundle of Microsoft 365 E5, Microsoft 365 Copilot and Agent 365 capabilities.
+
+Each of these names is confirmed on Learn before use, because enterprise suite names and contents have changed more than once.
+
+## Microsoft 365 Copilot adoption and data security
+
+Microsoft Copilot uses the permissions and policies a tenant already has. A user sees in Copilot answers only content that user can already open. The practical risk is oversharing: files shared too widely before Copilot arrived become easy to find once Copilot can summarise them.
+
+Two sets of Microsoft controls address this. SharePoint Advanced Management, which Microsoft Learn states is included with a Microsoft Copilot licence, provides data access governance reports, restricted access control and Restricted Content Discovery for overshared SharePoint sites. The Microsoft Purview protections for Copilot and generative artificial intelligence (AI) page lists sensitivity labels, Data Loss Prevention, auditing and Data Security Posture Management. Each Purview control has its own licence requirement in the Purview service description.
+
+For a partner, Copilot adoption is a reason to run a data security conversation before or during the Copilot rollout. The licensing question is which Purview capability the customer already owns through its base plan, and which needs an add-on.
+
+Source to confirm: https://learn.microsoft.com/en-us/purview/ai-microsoft-purview and https://learn.microsoft.com/en-us/sharepoint/sharepoint-advanced-management-features-copilot-license
+
+## Renewal timing as the trigger for a Microsoft Security licence change
+
+A customer's Microsoft 365 renewal is the natural decision point for a Microsoft Security licence change. Under new commerce in the Cloud Solution Provider program, subscriptions have commitment terms and billing plans, and the rules for upgrading, adding seats or cancelling depend on the term. A partner checks the current new commerce rules in the Partner Center documentation before promising a mid-term change.
+
+Practical sequence: list the customer's renewal date and term, identify the gap at least one renewal cycle ahead, and present the path before the renewal so the change lands on the renewal date.
+
+Source to confirm: https://learn.microsoft.com/en-us/partner-center/customers/new-commerce-license-based
+
+## Coexistence with security products from other vendors
+
+Many small and medium Microsoft 365 customers already run endpoint, email security or backup products from other vendors, and many partners sell those products. A licensing conversation that starts with "replace everything" usually stalls.
+
+Coexistence framing works better: start from the gap the existing tool does not cover. Identity protection with Microsoft Entra ID, device management with Microsoft Intune and data protection with Microsoft Purview often have no equivalent in the customer's current security stack, regardless of which endpoint product runs. Microsoft Defender XDR (extended detection and response) correlates signals only from the Microsoft products the customer has licensed, so the value of a Microsoft Security path grows with each product connected.
+
+A partner states what the Microsoft path replaces, what it runs alongside, and what the customer keeps.
+
+## Partner economics in licensing conversations
+
+Partner prices, promotion terms, incentive rates and margin constructs live in Partner Center behind partner sign-in and in Microsoft programme guides. Web search cannot read most of them, and they change by month and by market. Some appear on public pages, such as a United States list price on microsoft.com or a promotion percentage in a Partner Center announcement; those figures are still confirmed by the partner in Partner Center for the customer's market.
+
+Content meant for a customer contains no partner price, promotion percentage, incentive rate or margin information. A list price stated to a customer carries five qualifiers: market and currency, commitment term, billing plan, whether it is list or customer price, and the date of the price list. Without all five, the price is left for the partner to fill from its own price list.
+
+A Microsoft promotion is named with its end date and a link to the official page or programme document that announces it; its percentage and terms come from Partner Center.
+
+## Answer shape for a Microsoft Security licensing question
+
+A complete licensing answer for a partner has these parts, in this order:
+
+Answer: the recommendation in one or two sentences, naming the exact plan or add-on.
+Stack: what the customer has, as the partner described it.
+Gap: the capability that is missing and the risk it leaves open.
+Path, option A: the recommended plan or add-on, what it adds on top of the base plan, what it still does not include, prerequisites.
+Path, option B: the alternative and the reason it lost.
+Timing: the renewal or rollout moment that suits the change.
+Not confirmed: every fact the official pages did not confirm, written as a needs-input item.
+Sources: page title and full URL for every page opened.
+Confidence: high, medium or low, and the one reason it is not higher.

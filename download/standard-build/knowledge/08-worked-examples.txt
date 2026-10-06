@@ -1,0 +1,113 @@
+# Worked examples of complete answers for Microsoft Security partner requests
+
+This file holds four complete, full-length examples of the deliverables a Microsoft partner asks for: a licensing recommendation, a LinkedIn post, a customer email in German and a script review. Each example shows the expected depth, structure and source discipline. The customer scenarios are invented; the Microsoft facts were confirmed on the linked pages when the example was written and are confirmed again before any real use.
+
+## Worked example: Microsoft Security licensing recommendation for a Business Premium customer adopting Microsoft 365 Copilot
+
+Partner request: "Customer is an architecture firm in Spain, 45 users, all on Microsoft 365 Business Premium. They will buy Microsoft 365 Copilot for 10 users next quarter. The managing director worries that staff will find salary files through Copilot. What do we propose?"
+
+Answer: Start with a data security review that uses what Microsoft 365 Business Premium already includes, before the Copilot licences arrive. Propose the Microsoft Purview Suite for Business Premium only if the review shows the customer needs Purview capabilities beyond the Business Premium set.
+
+Stack: 45 users on Microsoft 365 Business Premium; 10 Microsoft 365 Copilot licences planned; no other security vendor mentioned.
+
+Gap: the stated risk is data exposure, not an attack. Microsoft Copilot uses the permissions users already have, so salary files that are shared too widely become easy to find through Copilot. The gap is oversharing and missing classification of HR content.
+
+Path, option A (recommended): a two-phase data security engagement. Phase one uses capabilities the customer will own: SharePoint Advanced Management, which Microsoft Learn states comes with a Microsoft Copilot licence, for data access governance reports and Restricted Content Discovery on the HR sites; a permissions review of SharePoint and OneDrive sites that hold HR content; sensitivity labels from Microsoft Purview Information Protection on salary and contract documents; and Microsoft Purview Data Loss Prevention policies for those labels, both of which Learn lists for Business Premium. Phase two, after the review, evaluates the Microsoft Purview Suite for Business Premium for capabilities the customer still needs. Prerequisite: Microsoft 365 Business Premium on every user covered by the add-on.
+
+Path, option B: the Microsoft Defender Suite for Business Premium, which Microsoft Learn lists as adding Microsoft Entra ID P2, Microsoft Defender for Identity, Microsoft Defender for Endpoint Plan 2, Microsoft Defender for Office 365 Plan 2 and Microsoft Defender for Cloud Apps. It lost because it addresses threat detection and identity risk, while the customer's stated risk is internal data exposure.
+
+Timing: phase one before the Copilot licences are assigned; the add-on decision aligned with the customer's renewal date.
+
+Not confirmed:
+[needs input: the exact Purview capabilities included in the Purview Suite for Business Premium; Learn names the add-on in the Purview service description tables but has no single page listing its contents]
+[needs input: which licence the customer needs for Data Security Posture Management; confirm in the Purview service description]
+[needs input: whether every SharePoint Advanced Management feature named here applies to the Copilot Business licence; confirm on the SharePoint Advanced Management licensing page]
+[needs input: the customer's renewal date and commitment term]
+[needs input: partner price for the add-on in the Spanish market, from the partner's price list]
+
+Sources:
+Add Microsoft Defender Suite for Business Premium to your subscription (lists Business Premium contents), https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/add-defender-suite-business-premium
+SharePoint Advanced Management features in Microsoft Copilot licenses, https://learn.microsoft.com/en-us/sharepoint/sharepoint-advanced-management-features-copilot-license
+Microsoft Purview service description, https://learn.microsoft.com/en-us/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-purview-service-description
+Microsoft Purview data security and compliance protections for Microsoft 365 Copilot and other generative AI apps, https://learn.microsoft.com/en-us/purview/ai-microsoft-purview
+
+Confidence: medium. The recommendation is sound, but the contents of the Purview Suite for Business Premium are not listed on one Microsoft page and need confirmation feature by feature.
+
+## Worked example: LinkedIn post about Microsoft Copilot and permissions, for a partner company page
+
+Request: "Write a LinkedIn post for our company page about preparing for Microsoft Copilot. English. Our audience is IT leads at small companies."
+
+Microsoft Copilot answers with whatever a user can already open. Microsoft's own documentation says Copilot uses the permissions and policies a tenant already has, which is why a permissions review belongs before a Copilot rollout.
+
+Copilot works with access that already exists and makes it easy to find. A finance folder shared with the whole company years ago, or a project site nobody closed, becomes searchable in plain language the day Copilot arrives.
+
+Before a rollout, we check three things: which sites and folders are shared with everyone in the organisation, which documents should carry a sensitivity label, and whether Data Loss Prevention policies cover the places Copilot reads from. Microsoft Purview provides the controls for each. Which of them a customer already owns depends on the base plan, and Microsoft's Purview service description lists that feature by feature.
+
+A permissions review does not fix access that was granted on purpose to the wrong person. That needs a conversation with the data owner.
+
+Which permission problem do you find most often in customer tenants before a Copilot rollout?
+
+#MicrosoftCopilot #MicrosoftPurview #DataSecurity
+
+Claim ledger for this example:
+Claim: Copilot uses existing permissions and policies. Status: verified. Source: Microsoft Learn, Set up your development environment for your plugin, security and privacy section, https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/prerequisites
+Claim: Microsoft Purview provides sensitivity labels, Data Loss Prevention and related controls for Copilot. Status: verified. Source: https://learn.microsoft.com/en-us/purview/ai-microsoft-purview
+Claim: the Purview service description lists licensing per feature. Status: verified. Source: Microsoft Purview service description.
+Compliance flags: none for a company-page post without personal data; no AI-generated image used.
+
+## Worked example: customer email in German about Microsoft 365 Business Premium security capabilities
+
+Request: "Customer in Germany on Microsoft 365 Business Standard, 25 users, renewal in three months. Write the email offering a licence review. German, formal."
+
+Betreff, drei Optionen:
+1. Sicherheitscheck für Ihre Microsoft 365-Lizenzen
+2. Was Business Standard bei Sicherheit abdeckt
+3. 30 Minuten Lizenzprüfung vor Ihrer Verlängerung
+
+Preheader: Welche Schutzfunktionen fehlen und wie wir das vor der Verlängerung prüfen.
+
+Sehr geehrte Frau [Nachname],
+
+ich schreibe Ihnen als Ihr Ansprechpartner für Microsoft 365 bei [Firmenname], weil Ihre Verlängerung in den nächsten Monaten ansteht.
+
+Ihr Unternehmen nutzt Microsoft 365 Business Standard. Dieser Plan filtert E-Mails über Exchange Online Protection, enthält aber weder eine zentrale Verwaltung Ihrer Laptops und Smartphones noch einen Endpunktschutz mit Erkennung und Reaktion. Microsoft 365 Business Premium ergänzt laut Microsoft unter anderem Microsoft Intune Plan 1 für die Geräteverwaltung, Microsoft Entra ID P1 für den bedingten Zugriff, etwa eine Anmeldung nur von verwalteten Geräten, Microsoft Defender for Business für den Schutz der Endgeräte und Microsoft Defender for Office 365 Plan 1 für die Prüfung von Links und Anhängen.
+
+Microsoft Defender for Identity und erweiterte Funktionen von Microsoft Purview sind in Business Premium nicht enthalten; sie gibt es als Zusatzpakete. Den vollständigen Planvergleich finden Sie bei Microsoft: [Link zum Planvergleich]
+
+Bevor Sie etwas ändern, prüfen wir in einem 30-minütigen Termin, welche dieser Funktionen Sie tatsächlich benötigen und wie sich ein Wechsel auf Ihre Verlängerung auswirkt. Wenn Funktionen eingeführt werden, die Geräte oder Aktivitäten protokollieren, beziehen wir Ihren Betriebsrat von Anfang an ein.
+
+Termin wählen: [Buchungslink]
+
+Mit freundlichen Grüßen
+[Name]
+[Firma], [Postanschrift]
+[Abmeldelink]
+
+Claim ledger for this example:
+Claim: Business Premium includes Intune Plan 1, Entra ID P1, Defender for Business and Defender for Office 365 Plan 1. Status: verified. Source: https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/add-defender-suite-business-premium
+Claim: Defender for Identity is not in Business Premium. Status: verified. The Defender Suite for Business Premium page lists Defender for Identity as an addition to Business Premium. Source: https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/add-defender-suite-business-premium
+Compliance flags: Germany, prior consent expected for commercial email to business recipients under the Unfair Competition Act; existing customer relationship to confirm; sender identity, postal address and unsubscribe present. Works council sentence included because Intune and Defender collect device data.
+
+## Worked example: review of a PowerShell script that enables multifactor authentication
+
+Request: "A colleague wrote this to turn on MFA for everyone. Is it fine to run on the customer tenant?"
+
+Script under review:
+Connect-MsolService
+Get-MsolUser -All | Set-MsolUser -StrongAuthenticationRequirements $mfa
+
+Verdict: stop. The script uses a deprecated module and the legacy per-user method that Microsoft no longer recommends, and it changes every account in one step with no preview.
+
+Finding one. Where: line 1 and line 2. What is wrong: Connect-MsolService and Set-MsolUser come from the MSOnline module. Evidence: Microsoft Learn states that the Azure Active Directory (Azure AD), Azure AD Preview and MSOnline PowerShell modules are deprecated and that Microsoft Graph PowerShell is the module to use (Upgrade from Azure AD PowerShell to Microsoft Graph PowerShell, https://learn.microsoft.com/en-us/powershell/microsoftgraph/migration-steps). Fix: use the Microsoft Graph PowerShell software development kit (SDK).
+
+Finding two. Where: line 2. What is wrong: the script enforces per-user multifactor authentication. Evidence: Microsoft Learn states that the best way to protect users is a Conditional Access policy, that changing per-user states is not recommended unless the licences lack Conditional Access and security defaults are not wanted, and that per-user MFA is not used together with Conditional Access (Enable per-user Microsoft Entra multifactor authentication, https://learn.microsoft.com/en-us/entra/identity/authentication/howto-mfa-userstates). Fix: if every user has Microsoft Entra ID P1, as with Microsoft 365 Business Premium, create a Conditional Access policy that requires multifactor authentication, start it in report-only mode and exclude the emergency access accounts. If the tenant has no Conditional Access licence, turn on security defaults instead.
+
+Finding three. Where: line 2. What is wrong: the pipeline changes every user in one run, including service and emergency accounts, with no list of affected accounts first. Fix: list the users before changing anything.
+
+Read-only first step (untested in this environment; run in a test tenant first):
+Connect-MgGraph -Scopes 'User.Read.All'
+Get-MgUser -All -Property DisplayName,UserPrincipalName,AccountEnabled | Select-Object DisplayName,UserPrincipalName,AccountEnabled
+
+Untested: the corrected commands were not executed here. Confirm the Microsoft Graph PowerShell module is installed and the account has rights to read users.
+
+Confidence: high on the deprecation and the recommended method, both stated on Microsoft Learn; medium on the read-only command until it runs in the customer's environment.

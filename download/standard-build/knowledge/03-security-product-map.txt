@@ -1,0 +1,98 @@
+# Microsoft Security product map in plain words, for partners
+
+This file explains what each Microsoft Security product does, in words a customer understands, and where its licensing is defined. It describes mechanisms, which change slowly. Plan contents, names and prerequisites change faster and are confirmed on the page named in each section.
+
+## Microsoft Defender for Business (endpoint protection for small and medium business)
+
+Microsoft Defender for Business protects company laptops, desktops, phones and tablets of small and medium businesses. It combines next-generation protection (antivirus), attack surface reduction, endpoint detection and response (EDR), and automated investigation and remediation, managed from the Microsoft Defender portal. It is sold standalone and is included in Microsoft 365 Business Premium. Servers need a separate add-on.
+
+Customer words: antivirus, endpoint protection, EDR, ransomware protection, "Virenschutz", "protección de equipos".
+Licensing defined at: https://learn.microsoft.com/en-us/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-defender-service-description
+How it works: https://learn.microsoft.com/en-us/defender-business/mdb-overview
+Common confusion: Defender for Business is not the same product as Microsoft Defender for Endpoint Plan 1 or Plan 2, although they share technology. Microsoft documents a feature comparison on the Defender for Business overview page.
+
+## Microsoft Defender for Endpoint Plan 1 and Plan 2 (enterprise endpoint protection)
+
+Microsoft Defender for Endpoint protects devices in enterprise tenants. Plan 1 covers prevention: next-generation protection (antivirus), attack surface reduction and device control. Plan 2 adds endpoint detection and response, automated investigation and remediation, threat hunting and threat analytics. Microsoft 365 E5 includes Plan 2.
+
+Customer words: EDR, MDE (Microsoft Defender for Endpoint), threat hunting, "Endpunktschutz".
+Licensing defined at: the Microsoft Defender service description (link in the source map).
+How it works: https://learn.microsoft.com/en-us/defender-endpoint/microsoft-defender-endpoint
+Common confusion: Plan 1 and Plan 2 here do not match Plan 1 and Plan 2 in Defender for Office 365 or Microsoft Entra ID.
+
+## Microsoft Defender for Office 365 and Exchange Online Protection (email and collaboration security)
+
+Exchange Online Protection filters spam and malware for every Exchange Online mailbox. Microsoft Defender for Office 365 adds protection on top: Safe Links checks links at the moment of click, Safe Attachments opens attachments in a sandbox, and anti-phishing policies detect impersonation. Plan 2 adds threat investigation, automated response and attack simulation training.
+
+Customer words: phishing protection, email security, Safe Links, Safe Attachments, MDO (Microsoft Defender for Office 365), "Phishing-Schutz", "protección del correo".
+Licensing defined at: https://learn.microsoft.com/en-us/office365/servicedescriptions/office-365-advanced-threat-protection-service-description
+Common confusion: shared mailboxes and other mailboxes that benefit from Defender for Office 365 policies raise licensing questions; the service description wording on who "benefits" decides.
+
+## Microsoft Defender for Identity (on-premises identity threat detection)
+
+Microsoft Defender for Identity watches on-premises Active Directory and related identity infrastructure for attacks such as credential theft, lateral movement and privilege escalation, and reports them in the Microsoft Defender portal. It matters for customers who still run domain controllers on site or in hybrid mode.
+
+Customer words: Active Directory protection, identity threat detection, MDI (Microsoft Defender for Identity), lateral movement.
+Licensing defined at: the Microsoft Defender service description.
+Common confusion: Defender for Identity protects identity infrastructure; Microsoft Entra ID P2 adds risk-based protection for cloud sign-ins. They complement each other.
+
+## Microsoft Defender for Cloud Apps (cloud app discovery and control)
+
+Microsoft Defender for Cloud Apps discovers which cloud apps employees use, rates their risk, and applies policies to sanctioned apps, such as blocking downloads from unmanaged devices. It is the Microsoft cloud access security broker (CASB).
+
+Customer words: shadow IT, CASB, cloud app security, SaaS control.
+Licensing defined at: the Microsoft Defender service description.
+How it works: https://learn.microsoft.com/en-us/defender-cloud-apps/what-is-defender-for-cloud-apps
+
+## Microsoft Defender XDR (the correlation layer)
+
+Microsoft Defender XDR (extended detection and response) correlates alerts from Defender for Endpoint or Defender for Business, Defender for Office 365, Defender for Identity, Defender for Cloud Apps and other connected products into incidents in one portal. It correlates signals only from the products the customer has licensed, so its value depends on how many of those products the customer runs.
+
+Customer words: XDR, unified security portal, incident correlation.
+How it works: https://learn.microsoft.com/en-us/defender-xdr/microsoft-365-defender
+
+## Microsoft Defender Suite (Business Premium add-on and enterprise add-on)
+
+The Microsoft Defender Suite bundles the advanced Defender products and Microsoft Entra ID P2 as an add-on. For Microsoft 365 Business Premium, Microsoft Learn lists the Microsoft Defender Suite for Business Premium as adding Microsoft Entra ID P2, Microsoft Defender for Identity, Microsoft Defender for Endpoint Plan 2, Microsoft Defender for Office 365 Plan 2 and Microsoft Defender for Cloud Apps. The enterprise Microsoft Defender Suite is described on the Microsoft Entra licensing page as formerly Microsoft 365 E5 Security.
+
+Customer words: E5 Security, Defender Suite, security add-on.
+Licensing defined at: https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/add-defender-suite-business-premium
+Common confusion: some Learn pages still use the retired name Microsoft 365 E5 Security.
+
+## Microsoft Entra ID P1, Entra ID P2, Entra ID Governance and Entra Suite (identity and access)
+
+Microsoft Entra ID is the identity service for Microsoft 365, formerly called Azure Active Directory. Microsoft Entra ID P1 adds Conditional Access, which allows or blocks sign-ins based on user, device, location and app. Microsoft Entra ID P2 adds risk-based Conditional Access with ID Protection and Privileged Identity Management for time-limited admin rights. Microsoft Entra ID Governance adds access reviews and lifecycle workflows. The Microsoft Entra Suite combines Private Access, Internet Access, ID Governance, ID Protection and Verified ID capabilities and requires Microsoft Entra ID P1.
+
+Customer words: multifactor authentication (MFA), Conditional Access, zero trust, single sign-on, "bedingter Zugriff", "acceso condicional".
+Licensing defined at: https://learn.microsoft.com/en-us/entra/fundamentals/licensing
+
+## Microsoft Intune Plan 1, Plan 2 and Intune Suite (device management)
+
+Microsoft Intune manages and secures Windows, macOS, iOS, iPadOS and Android devices: enrolment, configuration, compliance policies, app deployment and remote wipe. Device compliance from Intune feeds Conditional Access, so only healthy devices reach company data. Intune Plan 2 and the Microsoft Intune Suite add advanced endpoint management capabilities.
+
+Customer words: mobile device management (MDM), endpoint management, "Geräteverwaltung", "gestión de dispositivos".
+Licensing defined at: https://learn.microsoft.com/en-us/intune/fundamentals/licensing
+
+## Microsoft Purview (data security and compliance)
+
+Microsoft Purview protects and governs data. Information Protection classifies and labels documents and emails with sensitivity labels that can encrypt content. Data Loss Prevention (DLP) stops sensitive data from leaving through email, sharing, devices or AI apps. Insider Risk Management detects risky user activity. eDiscovery and Audit support investigations and legal holds. Data Lifecycle Management keeps or deletes content by policy. Data Security Posture Management shows where sensitive data is at risk, including how data is used in Microsoft Copilot and other artificial intelligence (AI) apps; Learn calls the earlier versions DSPM (classic) and DSPM for AI (classic).
+
+Customer words: sensitivity labels, DLP, data classification, compliance, eDiscovery, "Datenschutz", "protección de datos", Copilot oversharing.
+Licensing defined at: https://learn.microsoft.com/en-us/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-purview-service-description
+Copilot controls: https://learn.microsoft.com/en-us/purview/ai-microsoft-purview
+Common confusion: basic Purview features ship with many base plans; advanced features need an E5 plan or a Purview suite. Each feature has its own row in the service description.
+
+## Microsoft Security Copilot (generative AI for security teams)
+
+Microsoft Security Copilot is a generative AI assistant for security and IT operations. It summarises incidents, explains scripts, drafts queries and guides investigations, inside the Microsoft Defender portal and other Microsoft security tools. It is a different product from Microsoft Copilot for office work.
+
+Customer words: Security Copilot, AI for the security operations centre (SOC), SOC assistant.
+How it works: https://learn.microsoft.com/en-us/copilot/security/microsoft-security-copilot
+Common confusion: Security Copilot licensing and inclusion terms have changed; the current terms are read on Learn and in the latest announcement before any statement.
+
+## Microsoft Copilot and Microsoft 365 Copilot licences (office AI, relevant to data security)
+
+Microsoft Copilot is the AI assistant in the Microsoft 365 apps and in Copilot Chat. Learn states that the product formerly called Microsoft 365 Copilot is now named Microsoft Copilot. Licence names are in transition: the licence options page uses Microsoft Copilot and Microsoft Copilot Business, while other Learn pages and Partner Center still use Microsoft 365 Copilot and Microsoft 365 Copilot Business. A Copilot licence also brings SharePoint Advanced Management, according to Learn. Copilot answers with content the user can already access, which makes permissions hygiene and data protection part of every Copilot rollout.
+
+Customer words: Copilot, Copilot Chat, Microsoft 365 Copilot, Copilot Business, agents.
+Licensing defined at: https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-licensing

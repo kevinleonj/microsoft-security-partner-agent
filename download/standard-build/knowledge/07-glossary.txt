@@ -1,0 +1,144 @@
+# Glossary of Microsoft licensing and security terms for partners
+
+This glossary defines the terms that Microsoft partners meet in Microsoft 365 and Microsoft Security licensing and marketing, with the expansion of each acronym and the common German, French and Spanish equivalents. Each section covers one family of terms.
+
+## Cloud Solution Provider program, new commerce and partner terms
+
+Term: Cloud Solution Provider (CSP)
+Plain meaning: the Microsoft programme through which partners sell Microsoft cloud subscriptions to customers and bill them directly or through a distributor (an indirect provider).
+Also called: CSP-Programm (German), programme CSP (French), programa CSP (Spanish).
+
+Term: new commerce
+Plain meaning: the current purchasing model for licence-based services in the Cloud Solution Provider program, with monthly, annual or three-year terms and monthly, annual or upfront billing for many subscriptions. Cancellation and seat reduction follow term-specific rules documented in Partner Center.
+
+Term: indirect provider and indirect reseller
+Plain meaning: in the two-tier Cloud Solution Provider model, the indirect provider (a distributor) holds the Microsoft relationship and the indirect reseller sells to the customer.
+
+Term: Microsoft AI Cloud Partner Program and Solutions Partner designation
+Plain meaning: Microsoft's partner program; a Solutions Partner designation, such as Solutions Partner for Security, shows that a partner met a partner capability score in a solution area.
+
+Term: Partner Center
+Plain meaning: Microsoft's portal for partners, where price lists, incentives, customer subscriptions and programme status live behind partner sign-in.
+
+## Licensing document terms: Product Terms, service description, add-on, base licence
+
+Term: Microsoft Product Terms
+Plain meaning: the contract terms that govern use rights for Microsoft products and online services.
+Also called: Produktbestimmungen (German), Conditions des produits (French), Términos de producto (Spanish).
+
+Term: service description
+Plain meaning: the Microsoft Learn page that lists what a plan or product includes. Microsoft states that it is not a service contract.
+
+Term: base licence and add-on
+Plain meaning: a base licence is the plan a user must already have; an add-on extends it, for example a security suite on top of Microsoft 365 Business Premium.
+
+Term: tenant and tenant-level service
+Plain meaning: a tenant is the customer's Microsoft cloud organisation. A tenant-level service is switched on for the whole tenant, but the users who benefit from it generally need a licence.
+
+Term: per-user licence and device licence
+Plain meaning: most Microsoft 365 security licences are assigned per user and cover that user's devices within documented limits; some products offer device-only licences.
+
+## Identity terms: Microsoft Entra ID, multifactor authentication, Conditional Access
+
+Term: Microsoft Entra ID
+Plain meaning: the identity service for Microsoft 365, formerly called Azure Active Directory. P1 and P2 are its paid tiers.
+
+Term: multifactor authentication (MFA)
+Plain meaning: sign-in that needs a second factor, such as an authenticator app or a security key, in addition to the password.
+Also called: Mehrstufige Authentifizierung or MFA (German), authentification multifacteur (French), autenticación multifactor (Spanish).
+
+Term: Conditional Access
+Plain meaning: Microsoft Entra ID policies that allow, block or challenge a sign-in based on user, device, location, app and risk. Requires Microsoft Entra ID P1; risk-based policies require P2.
+Also called: bedingter Zugriff (German), accès conditionnel (French), acceso condicional (Spanish).
+
+Term: emergency access account
+Plain meaning: a cloud-only administrator account excluded from Conditional Access policies, kept for recovery when normal administrator sign-in fails.
+
+Term: Privileged Identity Management (PIM)
+Plain meaning: time-limited, approved activation of administrator roles instead of permanent admin rights. Part of Microsoft Entra ID P2.
+
+## Threat protection terms: EDR, XDR, SIEM, SOC
+
+Term: endpoint detection and response (EDR)
+Plain meaning: software on each device that records activity, detects attacks and lets analysts or automation respond.
+
+Term: extended detection and response (XDR)
+Plain meaning: correlation of signals from endpoints, email, identity and cloud apps into one incident view. Microsoft's product is Microsoft Defender XDR.
+
+Term: security information and event management (SIEM)
+Plain meaning: a system that collects and analyses logs from many sources. Microsoft's product is Microsoft Sentinel.
+
+Term: security operations centre (SOC)
+Plain meaning: the team, in-house or outsourced, that monitors and responds to security incidents.
+
+Term: managed detection and response (MDR)
+Plain meaning: a service where a provider monitors the customer's security tools and responds to threats on the customer's behalf.
+
+Term: attack surface reduction
+Plain meaning: rules and settings that block behaviour attackers commonly use, such as Office macros launching scripts.
+
+## Data protection terms: DLP, sensitivity labels, eDiscovery, oversharing
+
+Term: Data Loss Prevention (DLP)
+Plain meaning: policies that detect sensitive information and block or warn when it is shared, copied or uploaded where it should not go.
+Also called: Verhinderung von Datenverlust (German), protection contre la perte de données (French), prevención de pérdida de datos (Spanish).
+
+Term: sensitivity label
+Plain meaning: a Microsoft Purview tag on a document or email, such as Confidential, that can apply encryption, watermarks and access restrictions.
+
+Term: eDiscovery
+Plain meaning: search, hold and export of content for legal or internal investigations.
+
+Term: oversharing
+Plain meaning: files and sites shared more widely than intended. Microsoft Copilot shows users content they can already access, so oversharing becomes visible during Copilot rollouts.
+
+Term: Data Security Posture Management (DSPM)
+Plain meaning: Microsoft Purview capability that shows where sensitive data is at risk, including in Microsoft Copilot and other AI apps, and suggests policies. Learn calls the earlier versions DSPM (classic) and DSPM for AI (classic).
+
+Term: SharePoint Advanced Management
+Plain meaning: SharePoint governance features, included with a Microsoft Copilot licence according to Learn, such as data access governance reports and Restricted Content Discovery, which keeps selected sites out of Copilot and organisation-wide search.
+
+## European regulation terms: GDPR, NIS2, DORA, Cyber Resilience Act, AI Act, works council
+
+Term: General Data Protection Regulation (GDPR)
+Plain meaning: the European Union regulation on personal data protection.
+Also called: DSGVO (German), RGPD (French and Spanish).
+
+Term: Network and Information Security Directive 2 (NIS2)
+Plain meaning: the European Union directive on cybersecurity obligations for essential and important entities, applied through national laws whose status and scope differ by country.
+
+Term: Digital Operational Resilience Act (DORA)
+Plain meaning: the European Union regulation on information and communication technology risk for financial entities and their critical technology providers.
+
+Term: Cyber Resilience Act
+Plain meaning: the European Union regulation on security requirements for products with digital elements, aimed at manufacturers.
+
+Term: EU Artificial Intelligence Act
+Plain meaning: the European Union regulation on artificial intelligence; Article 50 sets transparency duties for AI-generated content.
+
+Term: works council
+Plain meaning: elected employee representatives with co-determination rights over systems that can monitor employees in Germany and Austria.
+Also called: Betriebsrat (German), comité social et économique (French, a different legal construct), comité de empresa (Spanish).
+
+Term: EU Data Boundary
+Plain meaning: Microsoft's commitment to store and process customer data for European Union and European Free Trade Association customers within that region, with documented exceptions.
+
+## Microsoft Copilot and agent terms: Copilot Chat, declarative agent, custom skill, Frontier
+
+Term: Microsoft Copilot and Microsoft Copilot Chat
+Plain meaning: Microsoft's artificial intelligence (AI) assistant for work. Learn states that Microsoft 365 Copilot is now named Microsoft Copilot and Microsoft 365 Copilot Chat is now named Microsoft Copilot Chat. Licence names are in transition; Learn uses both Microsoft Copilot Business and Microsoft 365 Copilot Business.
+
+Term: declarative agent
+Plain meaning: a customised version of Microsoft Copilot defined by instructions, knowledge sources and capabilities, built in Agent Builder or Microsoft 365 Agents Toolkit.
+
+Term: Agent Builder
+Plain meaning: the tool inside Microsoft Copilot for building declarative agents by describing them or filling in the Configure tab.
+
+Term: custom skill
+Plain meaning: a folder with a SKILL.md instruction file plus optional resources and scripts that a declarative agent loads only when a task needs it. In preview for organisations in the Microsoft Frontier Program; not available in tenants that use Microsoft Purview Information Barriers.
+
+Term: Frontier Program
+Plain meaning: Microsoft's early-access programme for new Microsoft Copilot features in organisations that enrol.
+
+Term: Think deeper
+Plain meaning: the Agent Builder response mode in which the agent takes more time to analyse before answering. The other modes are Auto and Quick response.

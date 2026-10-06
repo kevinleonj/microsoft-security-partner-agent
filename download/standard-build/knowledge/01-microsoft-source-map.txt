@@ -1,0 +1,196 @@
+# Microsoft source map for Microsoft Security licensing and product questions
+
+This file lists the official Microsoft pages that answer Microsoft 365 and Microsoft Security licensing and product questions for Microsoft partners, resellers and managed service providers. It holds no prices, dates, promotions or seat numbers, because those change. Each section names one source, what it settles, and where it misleads.
+
+## Source order: which Microsoft source wins when two disagree
+
+Microsoft publishes the same Microsoft 365 licensing fact in several places, and the places do not always agree. The order of authority for a Microsoft licensing or product claim is:
+
+Rank 1: Microsoft Product Terms. The contract. It settles what a licence legally permits, use rights, prerequisites and programme rules.
+Rank 2: Microsoft 365 and Office 365 service descriptions on Microsoft Learn. They settle what each plan includes. Microsoft states that service descriptions are not a service contract, so rights questions go back to the Product Terms.
+Rank 3: Product documentation on Microsoft Learn. It settles how a feature works, its prerequisites and its limits.
+Rank 4: Microsoft product blogs (Microsoft Security blog, Microsoft 365 blog, Tech Community product blogs). They settle what was announced and what was renamed. A blog announcement of a preview is not proof of general availability.
+Rank 5: Comparison charts, plan pages and pricing pages on microsoft.com. They help find a fact. They lag renames and add-on changes, so the fact is confirmed in a service description before it is stated.
+Not a source: distributor blogs, community forums, licensing training sites, partner decks and model memory. They show where to look. They do not carry a claim.
+
+When two Microsoft sources disagree, the higher rank wins and both are reported with their links, so the reader sees the conflict.
+
+## Microsoft Product Terms (licence rights, prerequisites, programme rules)
+
+The Microsoft Product Terms are the contract that governs Microsoft licences sold through volume licensing and the Cloud Solution Provider (CSP) program. They include the Data Protection Addendum and the service level agreements. The former Online Services Terms are now part of the Product Terms.
+
+URL: https://www.microsoft.com/licensing/terms/
+Settles: who may use a licence, on which devices, with which prerequisites, and under which programme.
+Misleads when: read for feature lists. The Product Terms describe rights, not features. Feature questions go to the service descriptions.
+
+## Microsoft 365 and Office 365 service descriptions (what each plan includes)
+
+The service description library on Microsoft Learn is the root for every Microsoft 365 plan family. It links the small and medium business plan comparison and the family service descriptions for Microsoft Defender, Microsoft Entra, Microsoft Intune, Microsoft Priva and Microsoft Purview. Learn has no single Microsoft 365 Business Premium service description page; Business Premium facts come from the family pages, the Business Premium FAQ and the plan pages.
+
+URL: https://learn.microsoft.com/en-us/office365/servicedescriptions/office-365-service-descriptions-technet-library
+Settles: which plan includes which capability.
+Misleads when: a table column names an enterprise suite and the reader assumes it covers the Business Premium add-on with a similar name.
+
+## Microsoft 365 guidance for security and compliance (hub page)
+
+The Microsoft 365 security and compliance licensing guidance page on Microsoft Learn is a hub. It points to the separate service descriptions for Microsoft Defender, Microsoft Entra, Microsoft Intune, Microsoft Priva and Microsoft Purview, and explains which capabilities are tenant-level and which are per user.
+
+URL: https://learn.microsoft.com/en-us/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance
+Settles: where each security family is licensed, and the rule that users who benefit from a tenant-level service generally need the licence.
+Misleads when: used as the final answer. It is a map; the family page holds the detail.
+
+## Microsoft Defender service description (Defender for Endpoint, Defender for Business, Defender for Identity, Defender for Cloud Apps)
+
+The Microsoft Defender service description lists which plans include Microsoft Defender for Endpoint Plan 1 and Plan 2, Microsoft Defender for Business, the Defender for Business servers add-on, Microsoft Defender for Identity and Microsoft Defender for Cloud Apps.
+
+URL: https://learn.microsoft.com/en-us/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-defender-service-description
+Settles: endpoint, identity and cloud-app protection entitlements by plan, including caps on add-ons.
+Misleads when: Plan 1 and Plan 2 naming in one Defender product is assumed to match another Defender product. Each product has its own tiers.
+
+## Microsoft Defender for Office 365 service description (email and collaboration protection)
+
+The Microsoft Defender for Office 365 service description compares Plan 1, Plan 2 and the Microsoft Defender Suite, and lists which plans include each. Exchange Online Protection is the baseline email filtering in every Exchange Online plan; Defender for Office 365 adds protection on top.
+
+URL: https://learn.microsoft.com/en-us/office365/servicedescriptions/office-365-advanced-threat-protection-service-description
+Settles: which plans include Plan 1 or Plan 2, and which features need Plan 2.
+Misleads when: an older deck says a plan lacks Plan 1. Microsoft has added Plan 1 to some plans; the current page decides.
+
+## Microsoft Purview service description (data security, compliance, protection for Copilot)
+
+The Microsoft Purview service description holds the licensing tables for each Purview capability: Information Protection, Data Loss Prevention (DLP), Insider Risk Management, eDiscovery, Audit, Data Lifecycle Management, Communication Compliance and Data Security Posture Management.
+
+URL: https://learn.microsoft.com/en-us/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-purview-service-description
+Settles: which plan or add-on includes each Purview feature.
+Misleads when: a column says "Microsoft Purview Suite" and the reader assumes it also covers "Microsoft Purview Suite for Business Premium". Learn names the Business Premium add-on only in some tables, and no single Learn page lists everything it includes.
+
+## Microsoft Entra licensing (Entra ID P1, Entra ID P2, Entra Suite, ID Governance)
+
+The Microsoft Entra licensing page lists which plans include Microsoft Entra ID Free, P1 and P2, Microsoft Entra ID Governance and the Microsoft Entra Suite, with feature tables. Microsoft Entra ID is the current name of the service formerly called Azure Active Directory.
+
+URL: https://learn.microsoft.com/en-us/entra/fundamentals/licensing
+Settles: Conditional Access, risk-based policies, privileged identity management and identity governance entitlements.
+Misleads when: P1 and P2 are written without "Microsoft Entra ID" in front. The tiers mean different things in Defender products.
+
+## Microsoft Intune licensing (Plan 1, Plan 2, Intune Suite)
+
+The Microsoft Intune licensing page explains Intune Plan 1, Intune Plan 2, the Microsoft Intune Suite, device-only licences, and the rule that administrators can manage Intune without their own licence.
+
+URL: https://learn.microsoft.com/en-us/intune/fundamentals/licensing
+Settles: device management entitlements and which advanced endpoint management features need Plan 2 or the Suite.
+Misleads when: an older link is used. The previous path redirects to this page.
+
+## Microsoft 365 Business Premium frequently asked questions
+
+The Business Premium FAQ on Microsoft Learn answers common questions about Microsoft 365 Business Premium, including the seat cap that applies across the Business plans and how Business Premium relates to Business Standard. FAQ stands for frequently asked questions.
+
+URL: https://learn.microsoft.com/en-us/microsoft-365/business-premium/microsoft-365-business-faqs
+Settles: the current seat cap and plan relationships for small and medium business customers.
+Misleads when: the seat cap is quoted from memory. The cap is read from this page each time.
+
+## Microsoft Defender Suite for Business Premium (add-on page)
+
+Microsoft Learn has a page that explains the Microsoft Defender Suite for Business Premium add-on and lists what it adds on top of Microsoft 365 Business Premium. The Microsoft Entra licensing page and partner price lists spell it "Microsoft Defender Suite for Microsoft 365 Business Premium". Learn states that this suite replaces the former Microsoft 365 E5 Security add-on for Business Premium.
+
+URL: https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/add-defender-suite-business-premium
+Related: https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/m365b-security-whats-new
+Settles: what the Defender Suite adds to Business Premium.
+Misleads when: an older Learn page still uses the retired name "Microsoft 365 E5 Security". The newer naming wins and the conflict is reported.
+
+## Microsoft Copilot service description and licence options
+
+The Microsoft Copilot service description explains the Copilot add-on plan, its licensing prerequisites and feature availability, including declarative agents and Agent Builder. Learn states that Microsoft 365 Copilot is now named Microsoft Copilot and Microsoft 365 Copilot Chat is now named Microsoft Copilot Chat. Licence names are in transition: the licence options page uses Microsoft Copilot and Microsoft Copilot Business, while other Learn pages and Partner Center still use Microsoft 365 Copilot and Microsoft 365 Copilot Business.
+
+URL: https://learn.microsoft.com/en-us/office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot
+Related: https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-licensing
+Settles: Copilot licence prerequisites and what Copilot Chat includes without a Copilot licence.
+Misleads when: an older and a newer name for the same licence are treated as two different products.
+
+## Microsoft Purview protections for Microsoft Copilot and generative AI
+
+Microsoft Learn has an overview of the Microsoft Purview controls that apply to Microsoft Copilot, agents and other generative artificial intelligence (AI) apps: sensitivity labels, Data Loss Prevention, auditing, Data Security Posture Management and related controls. Learn now calls the earlier versions Data Security Posture Management (classic) and DSPM for AI (classic).
+
+URL: https://learn.microsoft.com/en-us/purview/ai-microsoft-purview
+Settles: which Purview capability addresses which Copilot data risk, and which licence each control needs (through links to the service description).
+Misleads when: a control shown in preview is sold as available.
+
+## Microsoft 365 Business Premium security FAQ (mixed licensing, add-ons)
+
+The Microsoft 365 Business Premium security frequently asked questions page on Microsoft Learn answers questions about Business Premium security add-ons, including what happens when Microsoft Defender for Business and Microsoft Defender for Endpoint Plan 2 licences coexist in one tenant.
+
+URL: https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/m365bp-security-faq
+Related: https://learn.microsoft.com/en-us/defender-business/mdb-faq
+Settles: mixed endpoint licensing. Learn states that Defender for Business does not support mixed licensing: a tenant with Defender for Business and some Defender for Endpoint Plan 2 licences defaults to the Defender for Business experience until all users are licensed for Plan 2 and Microsoft Support switches the tenant.
+Misleads when: a partial Defender Suite purchase is sold as giving those users the Plan 2 experience.
+
+## SharePoint Advanced Management with Microsoft Copilot licences (oversharing controls)
+
+Microsoft Learn states that SharePoint Advanced Management is included with a Microsoft Copilot licence. Its oversharing controls include data access governance reports, restricted access control and Restricted Content Discovery, which keeps selected SharePoint sites from surfacing in Copilot and organisation-wide search without changing permissions.
+
+URL: https://learn.microsoft.com/en-us/sharepoint/sharepoint-advanced-management-features-copilot-license
+Related: https://learn.microsoft.com/en-us/microsoft-365/copilot/get-ready-copilot-sharepoint-advanced-management
+Settles: which SharePoint oversharing controls a customer gets with Copilot, and which reports need an additional licence (Learn marks the sensitivity labels report as requiring E5 or G5).
+Misleads when: Restricted SharePoint Search is suggested. Learn marks it as retiring and points to Restricted Content Discovery instead.
+
+## Microsoft Defender product documentation (how the products work)
+
+Microsoft Learn documents how each Defender product works. These pages explain mechanisms and prerequisites; licensing tables live in the service descriptions.
+
+Microsoft Defender for Business: https://learn.microsoft.com/en-us/defender-business/mdb-overview
+Microsoft Defender for Endpoint: https://learn.microsoft.com/en-us/defender-endpoint/microsoft-defender-endpoint
+Microsoft Defender XDR: https://learn.microsoft.com/en-us/defender-xdr/microsoft-365-defender
+Microsoft Defender for Cloud Apps: https://learn.microsoft.com/en-us/defender-cloud-apps/what-is-defender-for-cloud-apps
+Microsoft Security Copilot: https://learn.microsoft.com/en-us/copilot/security/microsoft-security-copilot
+Settles: what a product does, its prerequisites and how products connect. Microsoft Defender XDR (extended detection and response) correlates signals only from the products the customer has licensed.
+
+## Solutions Partner for Security designation (partner capability)
+
+The Solutions Partner for Security page in the Partner Center documentation explains the partner capability score, the metrics, the paths for enterprise and small business, and which workloads count.
+
+URL: https://learn.microsoft.com/en-us/partner-center/membership/solutions-partner-security
+Settles: the current designation requirements and eligible workloads.
+Misleads when: the score threshold or eligible workloads are quoted from memory. Microsoft adjusts both; the page and the latest Partner Center announcement decide.
+
+## Partner Center announcements (monthly partner news)
+
+The Partner Center announcements index on Microsoft Learn publishes monthly entries on new products, renamed products, designations, promotions and programme changes.
+
+URL: https://learn.microsoft.com/en-us/partner-center/announcements/
+Settles: what changed for partners this month and last month.
+Misleads when: an entry about partner economics (incentive rates, margin constructs, partner pricing) is copied into customer-facing content. Those figures belong in Partner Center, behind partner sign-in, and are confirmed there by the partner.
+
+## Microsoft product blogs and plan pages (announcements and public list prices)
+
+Microsoft announces Microsoft 365 and Microsoft Security product changes on its blogs. The plan and pricing pages on microsoft.com show plan contents and estimated retail prices for one market.
+
+Microsoft Security blog: https://www.microsoft.com/en-us/security/blog/
+Microsoft 365 blog: https://www.microsoft.com/en-us/microsoft-365/blog/
+Tech Community product blogs: https://techcommunity.microsoft.com/blog/
+Microsoft 365 business plans and pricing: https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-plans-and-pricing
+Settles: announcements, renames and preview launches.
+Misleads when: a United States retail price is quoted for a European market, a preview is described as available, or a Tech Community forum post is treated as an official statement. Only posts in Microsoft product team blogs count as Microsoft statements.
+
+## How to search Microsoft Learn and microsoft.com for a licensing fact
+
+Search queries that reach the right Microsoft page start broad and then narrow. Productive patterns:
+
+Pattern: "<exact plan name> service description"
+Pattern: "<feature name> licensing requirements"
+Pattern: "<product name> prerequisites"
+Pattern: "what's new in <product name>"
+Pattern: "<retired product name> renamed"
+Pattern: "<plan A> vs <plan B>" to find the chart, then the service description to confirm.
+
+The English (en-us) Learn pages are the reference version. Localised pages in German, French, Spanish or Italian can lag or be machine-translated; a fact is confirmed on the en-us page and then written in the reader's language.
+
+## Known traps in Microsoft licensing sources
+
+These traps in Microsoft licensing sources have produced wrong partner and customer content. Each is a reason to open the service description before writing.
+
+Trap: renamed products. Learn pages can disagree for a while after a rename. Example: one Defender page still says "Microsoft 365 E5 Security" while the Entra licensing page calls it "Microsoft Defender Suite (formerly Microsoft 365 E5 Security)".
+Trap: tenant-level does not mean everyone is covered. Users who benefit from a tenant-level service generally need the licence.
+Trap: add-on versus full suite. An add-on sits on a base plan and has prerequisites. "Includes" always needs "on top of what".
+Trap: Plan 1 and Plan 2 mean different things in Defender for Endpoint, Defender for Office 365, Microsoft Entra ID and Intune.
+Trap: frontline, education, government and nonprofit plans have their own names, contents and availability.
+Trap: preview, public preview and general availability are different states. Only general availability is sold as available.
+Trap: regional availability, data residency and the EU Data Boundary can differ from feature availability.
+Trap: partner price lists live in Partner Center behind sign-in. Web search cannot read them.
